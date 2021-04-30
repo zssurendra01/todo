@@ -1,11 +1,11 @@
 Users service is written in Java-8 version, Hence we need to install Java.
 
 Install Maven, This will install Java-8 too
-#apt update 
-#apt install maven -y 
+# apt update 
+# apt install maven -y 
 As per the standard process, we always run the applications as a normal user.
 Create a user
-#useradd -m -s /bin/bash todo
+# useradd -m -s /bin/bash todo
 Download the repo
 $ cd /home/todo
 $ git clone https://github.com/zelar-soft-todoapp/todo.git
