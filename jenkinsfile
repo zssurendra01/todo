@@ -1,0 +1,21 @@
+pipeline{
+    agent any
+    stages{
+        stage("Installing npm"){
+            steps{
+                sh '''
+                npm install
+                '''
+            }
+        }
+    }
+    stages{
+        stage("seeing artifacts"){
+            steps{
+                sh '''
+                zip -r todo.zip node_modules server.js *
+                '''
+            }
+        }
+    }
+}
