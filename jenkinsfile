@@ -3,6 +3,13 @@ pipeline {
         label "SLAVE"
     }
     stages {
+        stage('download npm') {
+            steps {
+                sh '''
+                 npm install
+                '''
+            }
+        }
         
         stage('seeing artifacts') {
             steps {
