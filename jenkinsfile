@@ -3,7 +3,7 @@ pipeline {
         label "SLAVE"
     }
     stages {
-        stage("Installing npm") {
+        stage('Installing npm') {
             steps {
                 sh '''
                 npm install
@@ -11,8 +11,7 @@ pipeline {
             }
         }
     }
-    
-        stage("seeing artifacts") {
+        stage('seeing artifacts') {
             steps {
                 sh '''
                 zip -r todo.zip node_modules server.js *
