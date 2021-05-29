@@ -9,7 +9,7 @@ pipeline {
             }
         }
     }
-    stages {
+    
         stage("seeing artifacts") {
             steps {
                 sh '''
@@ -17,5 +17,5 @@ pipeline {
                 '''
             }
         }
-    }
+    
 }
