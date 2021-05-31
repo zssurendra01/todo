@@ -3,7 +3,7 @@
 Todo{
     COMPONENT             : 'todo',
         PROJECT_NAME          : "TODO",
-        SLAVE_LABEL           : "NODEJS",
+        SLAVE_LABEL           : "node1",
         SKIP_NEXUS_UPLOAD     : false,
         APP_TYPE              : "NODEJS"
 }
