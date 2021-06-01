@@ -1,7 +1,7 @@
 @Library('TODO') _
 
 Todo{
-    COMPONENT             : "todo",
+    COMPONENT             : "todo1",
     PROJECT_NAME          : "TODO",
     SLAVE_LABEL           : "node1",
     SKIP_NEXUS_UPLOAD     : false,
