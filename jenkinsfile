@@ -1,9 +1,10 @@
 @Library('TODO') _
 
-Todo{
-    COMPONENT             : "todo1",
+Todo(
+    COMPONENT             : "todo",
     PROJECT_NAME          : "TODO",
     SLAVE_LABEL           : "node1",
     SKIP_NEXUS_UPLOAD     : false,
     APP_TYPE              : "NODEJS"
-}
+)
+    
